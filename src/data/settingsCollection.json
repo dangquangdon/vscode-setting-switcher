@@ -1,0 +1,93 @@
+{
+  "javascript": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "jspm_packages": true,
+      "node_modules": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 22,
+    "editor.fontWeight": "500",
+    "editor.cursorWidth": 5,
+    "editor.largeFileOptimizations": false,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.glyphMargin": true,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.renderIndentGuides": false,
+    "files.encoding": "utf8",
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "[markdown]": {
+      "editor.formatOnSave": true,
+      "editor.renderWhitespace": "all",
+      "editor.acceptSuggestionOnEnter": "off"
+    },
+    "files.associations": {
+      "*.jsx": "JavaScript React",
+      "*.js": "javascriptreact"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "jsx-sublime-babel-tags": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showExpandedAbbreviation": "never"
+  },
+  "python": {
+    "editor.detectIndentation": true,
+    "editor.formatOnPaste": false,
+    "editor.insertSpaces": true,
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 22,
+    "editor.cursorWidth": 5,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.glyphMargin": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.roundedSelection": false,
+    "editor.renderIndentGuides": true,
+
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/*.pyc": true,
+      "**/__pycache__": true
+    },
+
+    "[python]": {
+      "editor.rulers": [72, 79],
+      "editor.tabSize": 4,
+      "editor.insertSpaces": true
+    },
+    "[markdown]": {
+      "editor.wordWrap": "on"
+    },
+    "python.languageServer": "Microsoft",
+    "python.jediEnabled": false
+  }
+}
