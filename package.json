@@ -3,7 +3,7 @@
   "publisher": "dangquangdon",
   "displayName": "settings-switcher",
   "description": "Little helper to generate boilerplate workspace settings file for vscode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.48.0"
   },
